@@ -13,13 +13,13 @@ public class Caso9 {
 		String nombre = sc.nextLine();
 		
 		System.out.print("Nota 1...............: ");
-		float nota1 = sc.nextFloat();
+		int nota1 = sc.nextInt();
 		
 		System.out.print("Nota 2...............: ");
-		float nota2 = sc.nextFloat();
+		int nota2 = sc.nextInt();
 		
 		System.out.print("Asistencia [1-12]....:");
-		float na = sc.nextFloat();
+		int na = sc.nextInt();
 		
 		float promedio = nota1 * 0.3f + nota2 * 0.7f;
 		float pa = na / 12;
